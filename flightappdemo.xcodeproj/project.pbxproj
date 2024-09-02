@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		934369422C83B35800F23F35 /* flightappdemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934369412C83B35800F23F35 /* flightappdemoApp.swift */; };
-		934369442C83B35800F23F35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934369432C83B35800F23F35 /* ContentView.swift */; };
+		934369442C83B35800F23F35 /* FlightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934369432C83B35800F23F35 /* FlightApp.swift */; };
 		934369462C83B35900F23F35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934369452C83B35900F23F35 /* Assets.xcassets */; };
 		934369492C83B35900F23F35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934369482C83B35900F23F35 /* Preview Assets.xcassets */; };
+		936CA57D2C85348400445196 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936CA57C2C85348400445196 /* Shapes.swift */; };
+		936CA57F2C8534FB00445196 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936CA57E2C8534FB00445196 /* Models.swift */; };
+		936CA5812C85352E00445196 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936CA5802C85352E00445196 /* Date+Extension.swift */; };
+		936CA5832C8535B800445196 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936CA5822C8535B800445196 /* EmptyStateView.swift */; };
+		936CA5852C85371400445196 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936CA5842C85371400445196 /* TicketView.swift */; };
+		936CA5872C85377A00445196 /* TicketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936CA5862C85377A00445196 /* TicketListView.swift */; };
+		936CA5892C8537BD00445196 /* FlightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936CA5882C8537BD00445196 /* FlightViewModel.swift */; };
+		936CA58B2C85397B00445196 /* TicketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936CA58A2C85397B00445196 /* TicketDetailView.swift */; };
+		936CA58F2C85480600445196 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936CA58E2C85480600445196 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9343693E2C83B35800F23F35 /* flightappdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flightappdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		934369412C83B35800F23F35 /* flightappdemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flightappdemoApp.swift; sourceTree = "<group>"; };
-		934369432C83B35800F23F35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		934369432C83B35800F23F35 /* FlightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightApp.swift; sourceTree = "<group>"; };
 		934369452C83B35900F23F35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		934369482C83B35900F23F35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		936CA57C2C85348400445196 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		936CA57E2C8534FB00445196 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		936CA5802C85352E00445196 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		936CA5822C8535B800445196 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		936CA5842C85371400445196 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		936CA5862C85377A00445196 /* TicketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketListView.swift; sourceTree = "<group>"; };
+		936CA5882C8537BD00445196 /* FlightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightViewModel.swift; sourceTree = "<group>"; };
+		936CA58A2C85397B00445196 /* TicketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailView.swift; sourceTree = "<group>"; };
+		936CA58E2C85480600445196 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +70,16 @@
 			isa = PBXGroup;
 			children = (
 				934369412C83B35800F23F35 /* flightappdemoApp.swift */,
-				934369432C83B35800F23F35 /* ContentView.swift */,
+				934369432C83B35800F23F35 /* FlightApp.swift */,
+				936CA5882C8537BD00445196 /* FlightViewModel.swift */,
+				936CA5862C85377A00445196 /* TicketListView.swift */,
+				936CA58A2C85397B00445196 /* TicketDetailView.swift */,
+				936CA5842C85371400445196 /* TicketView.swift */,
+				936CA5822C8535B800445196 /* EmptyStateView.swift */,
+				936CA57C2C85348400445196 /* Shapes.swift */,
+				936CA57E2C8534FB00445196 /* Models.swift */,
+				936CA5802C85352E00445196 /* Date+Extension.swift */,
+				936CA58E2C85480600445196 /* Colors.swift */,
 				934369452C83B35900F23F35 /* Assets.xcassets */,
 				934369472C83B35900F23F35 /* Preview Content */,
 			);
@@ -137,8 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				934369442C83B35800F23F35 /* ContentView.swift in Sources */,
+				936CA5832C8535B800445196 /* EmptyStateView.swift in Sources */,
+				936CA58F2C85480600445196 /* Colors.swift in Sources */,
+				936CA5812C85352E00445196 /* Date+Extension.swift in Sources */,
+				936CA5872C85377A00445196 /* TicketListView.swift in Sources */,
+				936CA58B2C85397B00445196 /* TicketDetailView.swift in Sources */,
+				934369442C83B35800F23F35 /* FlightApp.swift in Sources */,
+				936CA5852C85371400445196 /* TicketView.swift in Sources */,
 				934369422C83B35800F23F35 /* flightappdemoApp.swift in Sources */,
+				936CA5892C8537BD00445196 /* FlightViewModel.swift in Sources */,
+				936CA57D2C85348400445196 /* Shapes.swift in Sources */,
+				936CA57F2C8534FB00445196 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +316,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +346,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
