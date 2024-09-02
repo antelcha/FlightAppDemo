@@ -11,7 +11,7 @@ This is a SwiftUI-based application. Follow the steps below to run it.
 1. **Clone the repository:**
 
     ```bash
-    git clone [[https://github.com/your-username/swiftui-project.git](https://github.com/antelcha/FlightAppDemo.git)](https://github.com/antelcha/FlightAppDemo.git)
+    git clone https://github.com/antelcha/FlightAppDemo.git
     cd FlightAppDemo
     ```
 
