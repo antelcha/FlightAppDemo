@@ -10,7 +10,7 @@ This is a SwiftUI-based application. Follow the steps below to run it.
 
 ## Requirements
 
-- **macOS** with **Xcode 14.0** or later.
+- **macOS** with **Xcode 15.0** or later.
 
 ## How to Run
 
