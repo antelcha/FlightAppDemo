@@ -43,6 +43,7 @@ struct FlightApp: View {
                             .blur(radius: flightViewModel.isDetailViewPresented ? 30 : 0)
                             .disabled(flightViewModel.isDetailViewPresented)
                     }
+                    
                 }
                 
             }

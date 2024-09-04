@@ -12,34 +12,37 @@ struct EmptyStateView: View {
     
     var body: some View {
         VStack(spacing: .zero) {
-            PlaneHorizontal()
+            VStack(spacing: .zero){
+                PlaneHorizontal()
+                    
+                    .stroke(lineWidth: 2)
+                    .rotation(Angle(degrees: -45))
+                    .frame(width: 28, height: 28)
                 
-                .stroke(lineWidth: 2)
-                .rotation(Angle(degrees: -45))
-                .frame(width: 28, height: 28)
-            
-                .padding(14)
-                .background(
-                RoundedRectangle(cornerRadius: 14)
-                    .inset(by: 0.5) // inset value should be same as lineWidth in .stroke
-                    .stroke(Color.gray200, lineWidth: 2)
-            )
-            
-            Spacer()
-                .frame(height: 16)
-            
-            Text("No Flights Added Yet")
-                .foregroundStyle(Color.gray900)
-                .font(.title2)
-                .bold()
-            Spacer()
-                .frame(height: 8)
-            Text("Let's get started on your jet lag plan! Add your upcoming flights to begin your journey.")
-                .foregroundStyle(Color.gray600)
-                .multilineTextAlignment(.center)
-                .font(.body)
-                .fontWeight(.regular)
+                    .padding(14)
+                    .background(
+                    RoundedRectangle(cornerRadius: 14)
+                        .inset(by: 0.5) // inset value should be same as lineWidth in .stroke
+                        .stroke(Color.gray200, lineWidth: 2)
+                )
+                
+                Spacer()
+                    .frame(height: 16)
+                
+                Text("No Flights Added Yet")
+                    .foregroundStyle(Color.gray900)
+                    .font(.title2)
+                    .bold()
+                Spacer()
+                    .frame(height: 8)
+                Text("Let's get started on your jet lag plan! Add your upcoming flights to begin your journey.")
+                    .foregroundStyle(Color.gray600)
+                    .multilineTextAlignment(.center)
+                    .font(.body)
+                    .fontWeight(.regular)
 
+            }
+            .padding(.horizontal, 32)
             Spacer()
                 .frame(height: 24)
 
